@@ -8,6 +8,7 @@ Code of paper "Ultra-Fine Entity Typing with Prior Knowledge about Labels: A Sim
 
 # Run domain models step by step
 step 1. Run clustering.py to get domains
+
 python ./src/domain_model/clustering.py -type_emb [embeddings file name of entity types] -out_file [output domain file name] -clu_type all
 
 step 2. Run preprocessing.py to build a mapping from domains to original types
