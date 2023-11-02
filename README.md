@@ -4,4 +4,7 @@ Code of paper "Ultra-Fine Entity Typing with Prior Knowledge about Labels: A Sim
 # Requirements
 - transformers
 - skikit-learn
-- 
+- faiss
+
+# Run models
+
