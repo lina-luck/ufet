@@ -33,13 +33,13 @@ python ./src/domain_model/find_cn.py -goal open -o [output file name of concept 
 python ./src/domain_model/get_init_weights.py -model [file name got from baseline model] -mapping [mapping file name got from step 2] -out_dir [output directory of initial weights]
 ```
 
-### Step 5. add type path to VOCAB_DIR_DICT in constant.py, for example
+### Step 5. Add type path to VOCAB_DIR_DICT in constant.py, for example
 
 ```
 VOCAB_DIR_DICT = {"nb": os.path.join(DATA_ROOT, 'ontology/domain/numberbatch')}
 ```
 
-### Step 6. main.py to run the domain model
+### Step 6. Run main.py to run the domain model
 
 ```
 python ./src/domain_model/main.py -model_id [model name] -d_goal [domain goal, e.g. nb in step 5] -dfn_postfix [postfix of domain type file name] -dfc_param [file name of initial weights for last fc layer] -bert_param [file name of initial weights for BERT] -in_dim [input dimension] -cn
