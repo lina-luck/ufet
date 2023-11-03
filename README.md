@@ -4,7 +4,7 @@ Code of paper "Ultra-Fine Entity Typing with Prior Knowledge about Labels: A Sim
 # Requirements
 - Python 3.7
 - transformers == 4.18.0
-- skikit-learn == 1.0.2
+- scikit-learn == 1.0.2
 - faiss == 1.7.2
 - pyarrow == 10.0.1
 
