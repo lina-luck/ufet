@@ -1,5 +1,5 @@
 # ufet_with_domains
-Code of paper "Ultra-Fine Entity Typing with Prior Knowledge about Labels: A Simple Clustering Based Strategy", accepted by EMNLP 2023 Findings
+Code of paper "Ultra-Fine Entity Typing with Prior Knowledge about Labels: A Simple Clustering Based Strategy", accepted by Findings of EMNLP 2023 
 
 # Requirements
 - Python 3.7
